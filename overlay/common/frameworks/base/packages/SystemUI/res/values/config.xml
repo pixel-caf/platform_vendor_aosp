@@ -24,4 +24,7 @@
 
 <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
     <bool name="config_show4GForLTE">false</bool>
+    
+<!-- Double tap anywhere in lockscreen makes the device go to sleep -->
+    <bool name="config_doubletap_lockscreen_sleep">true</bool>
 </resources>
