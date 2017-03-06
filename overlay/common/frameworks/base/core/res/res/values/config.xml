@@ -52,4 +52,8 @@
     <!-- If supported, are dreams enabled? (by default) -->
     <bool name="config_dreamsEnabledByDefault">false</bool>
 
+    <!-- Allow the gesture to double tap the power button twice to start the camera while the device
+         is non-interactive. -->
+    <bool name="config_cameraDoubleTapPowerGestureEnabled">false</bool>
+
 </resources>
