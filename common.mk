@@ -10,7 +10,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false \
     ro.opa.eligible_device=true \
-    ro.setupwizard.rotation_locked=true
+    ro.setupwizard.rotation_locked=true \
+    ro.caf.version=LA.UM.5.6.r1-04000-89xx.0
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
