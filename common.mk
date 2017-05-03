@@ -26,10 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/blacklist:system/addon.d/blacklist \
     vendor/aosp/prebuilt/common/bin/whitelist:system/addon.d/whitelist \
 
-# Bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
-
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/sysinit:system/bin/sysinit \
