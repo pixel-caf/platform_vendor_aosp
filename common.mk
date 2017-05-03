@@ -107,6 +107,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += tcmiface
 PRODUCT_BOOT_JARS += tcmiface
 
+# SDCLANG
+SDCLANG_PATH := vendor/qcom/sdclang-3.8/linux-x86/bin
+SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
+
 # Snapdragon packages
 PRODUCT_PACKAGES += \
     MusicFX \
