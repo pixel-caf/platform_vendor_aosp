@@ -19,8 +19,10 @@ LOCAL_SRC_FILES := healthd_board_cm.cpp
 LOCAL_MODULE := libhealthd.cm
 LOCAL_CFLAGS := -Werror
 LOCAL_C_INCLUDES := \
+    vendor/aosp/charger/include \
     system/core/healthd/include \
     bootable/recovery
+
 ifneq ($(BACKLIGHT_PATH),)
     LOCAL_CFLAGS += -DHEALTHD_BACKLIGHT_PATH=\"$(BACKLIGHT_PATH)\"
 endif
