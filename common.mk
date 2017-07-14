@@ -11,7 +11,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \
     ro.opa.eligible_device=true \
     ro.setupwizard.rotation_locked=true \
-    ro.caf.version=LA.UM.5.6.r1-05100-89xx.0
+    ro.caf.version=LA.UM.5.6.r1-05300-89xx.0
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
