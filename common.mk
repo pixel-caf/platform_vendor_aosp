@@ -102,7 +102,8 @@ PRODUCT_BOOT_JARS += tcmiface
 PRODUCT_PACKAGES += \
     MusicFX \
     SnapdragonGallery \
-    SnapdragonMusic
+    SnapdragonMusic \
+    Snap
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
