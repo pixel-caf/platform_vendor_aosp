@@ -71,7 +71,8 @@ PRODUCT_PACKAGES += \
     sqlite3 \
     strace \
     Terminal \
-    WallpaperPicker
+    WallpaperPicker \
+    Calculator
 
 # Telephony packages
 PRODUCT_PACKAGES += \
@@ -102,8 +103,7 @@ PRODUCT_BOOT_JARS += tcmiface
 PRODUCT_PACKAGES += \
     MusicFX \
     SnapdragonGallery \
-    SnapdragonMusic \
-    SnapdragonCamera
+    SnapdragonMusic
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
